@@ -35,6 +35,7 @@ public class TutorialMod : CementMod
         Vector4 newColor = new Vector4(r,g,b,0.3f);
         
         guy.primaryColor = newColor;
+        guy.CostumeColor = newColor;
         
         
     }
