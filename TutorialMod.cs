@@ -32,7 +32,7 @@ public class TutorialMod : CementMod
         float g = UnityEngine.Random.Range(0.0f,1.0f);
         float b = UnityEngine.Random.Range(0.0f,1.0f);
 
-        Vector4 newColor = new Vector4(r,g,b,1f);
+        Vector4 newColor = new Vector4(r,g,b,0.3f);
         
         guy.primaryColor = newColor;
         
