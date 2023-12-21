@@ -32,12 +32,13 @@ public class TutorialMod : CementMod
         float g = UnityEngine.Random.Range(1,255);
         float b = UnityEngine.Random.Range(1,255);
 
-        Vector4 newColor = new Vector4(r,g,b,.5f);
+        Vector4 newColor = new Vector4(r,g,b,1);
         
         guy.primaryColor = newColor;
         guy.CostumeColor = newColor;
-        Invoke("ResetColorChange", 0.5f);
+        
     }
+    Invoke("ResetColorChange", 0.5f);
    }
 
    private void ResetColorChange(){
