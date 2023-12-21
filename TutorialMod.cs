@@ -28,11 +28,11 @@ public class TutorialMod : CementMod
       CanSwitch = false;
       foreach(Actor guy in FindObjectsOfType<Actor>())
     {
-        float r = UnityEngine.Random.Range(1,255);
-        float g = UnityEngine.Random.Range(1,255);
-        float b = UnityEngine.Random.Range(1,255);
+        float r = UnityEngine.Random.Range(0.0f,1.0f);
+        float g = UnityEngine.Random.Range(0.0f,1.0f);
+        float b = UnityEngine.Random.Range(0.0f,1.0f);
 
-        Vector4 newColor = new Vector4(r,g,b,1);
+        Vector4 newColor = new Vector4(r,g,b,1f);
         
         guy.primaryColor = newColor;
         
