@@ -2,5 +2,5 @@ Name=TutorialMod
 Author=TheGyroBlo
 Message=https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/message
 CementFile=https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/TutorialMod.cmt
-Links=https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/TutorialMod.dll
+Links=https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/TutorialMod.dll,https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/TutorialMod.cs
 LatestVersion=https://raw.githubusercontent.com/TheGyroBlo/TutorialMod/master/version
